@@ -1,0 +1,44 @@
+Meeting: Q1 Product Planning Session
+Date: March 15, 2026
+Participants: Sarah Chen (Engineering Manager), James Park (Product Manager), Maria Lopez (Design Lead), Alex Kim (Tech Lead)
+
+Sarah: Good morning everyone. Let's kick off our Q1 planning session. We need to finalize the roadmap and assign owners for key initiatives.
+
+James: Thanks Sarah. Top priority is launching the mobile app by end of Q1. We're currently at 70% completion. The main blockers are the payment integration and push notifications.
+
+Alex: On payment integration, Stripe is integrated for web but we need Apple Pay and Google Pay for mobile. I estimate 2 weeks for Apple Pay and 1 week for Google Pay. I'd like to assign this to the payments team — specifically to David.
+
+Maria: From a design perspective, the onboarding flow needs a redesign. User testing showed 40% drop-off at step 3. I can have updated mockups ready by March 22nd.
+
+Sarah: That's a critical finding. Maria, please prioritize the onboarding redesign. Alex, can David start on Apple Pay this week?
+
+Alex: Yes, David can start Monday. For Google Pay, we might need to pull in Lisa from the Android team since she's done this before.
+
+James: Decision made — we're committing to mobile app launch by March 31st. Payment integration is the critical path.
+
+Sarah: What about the API v2 migration? Alex mentioned concerns about backward compatibility.
+
+Alex: We decided last month to defer API v2 to Q2. The current API handles our load fine. Risk is that three enterprise clients have requested v2 features, but we can manage with the current API for now.
+
+Maria: One open question — should we A/B test the new onboarding flow or do a full rollout? I don't think we have enough traffic for a meaningful A/B test.
+
+James: Good point. Let's do a phased rollout — 10% of new users first, then expand if metrics improve.
+
+Sarah: Action items then:
+1. David — Complete Apple Pay integration by March 22nd (High priority)
+2. Lisa — Google Pay integration by March 29th (High priority)
+3. Maria — Updated onboarding mockups by March 22nd (Medium priority)
+4. James — Communicate launch timeline to stakeholders by March 18th (Medium priority)
+5. Alex — Set up phased rollout infrastructure for onboarding by March 25th (Medium priority)
+
+James: I'll also send a follow-up email to the leadership team with our Q1 commitments.
+
+Sarah: Any risks we should flag?
+
+Alex: The main risk is if Apple Pay review takes longer than expected. Apple sometimes rejects first submissions. We should submit by March 15th to have buffer.
+
+James: Also, if the onboarding redesign doesn't improve metrics, we need a fallback plan. Maria, can you prepare a simplified version as backup?
+
+Maria: Yes, I can have a minimal version ready as Plan B.
+
+Sarah: Great. Let's reconvene next Monday to check progress. Meeting adjourned.
